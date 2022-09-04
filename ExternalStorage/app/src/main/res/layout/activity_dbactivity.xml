@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DBActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="DataBase"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/usernameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:text="User Name:"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/id_username_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@+id/usernameTextView"
+            android:hint="Your Name"
+            android:padding="10dp"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/id_externalPublic"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_username_edit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:onClick="retriveExPublic"
+            android:padding="15dp"
+            android:text="Retrive External Public"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/id_externalPrivate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_externalPublic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:onClick="retriveExPrivate"
+            android:padding="15dp"
+            android:text="Retrive External Private"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/id_back"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_externalPrivate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:onClick="dataBase"
+            android:padding="15dp"
+            android:text="Back to Main"
+            android:textSize="25dp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="External Storage"
+            android:textColor="#E8EF06"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/usernameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:text="User Name:"
+            android:textColor="#AFDD57"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/id_username_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@+id/usernameTextView"
+            android:hint="Your Name"
+            android:padding="10dp"
+            android:textColor="#983535"
+            android:textColorHighlight="#AA3D3D"
+            android:textColorHint="#BCBA29"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/id_externalPublic"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_username_edit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="#BD4E74"
+            android:onClick="saveExPublic"
+            android:padding="15dp"
+            android:text="External Public"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/id_externalPrivate"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_externalPublic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:onClick="saveExPrivate"
+            android:padding="15dp"
+            android:text="External Private"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/id_database"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_externalPrivate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:onClick="nextDataBase"
+            android:padding="15dp"
+            android:text="DataBase"
+            android:textSize="25dp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
