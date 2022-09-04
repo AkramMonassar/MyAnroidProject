@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/back_ground"
+    >
+
+    <Button
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="موقع المطور"
+        android:id="@+id/bu1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:textSize="30dp"
+        android:width="400dp"
+        android:background="@drawable/animationbutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اتصل عبر الهاتف"
+        android:id="@+id/bu2"
+        android:textSize="30dp"
+        android:layout_below="@+id/bu1"
+        android:layout_centerHorizontal="true"
+        android:width="400dp"
+        android:background="@drawable/animationbutton" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="حول التطبيق"
+        android:id="@+id/bu3"
+        android:textSize="30dp"
+        android:layout_below="@+id/bu2"
+        android:layout_centerHorizontal="true"
+        android:width="400dp"
+        android:background="@drawable/animationbutton" />
+</RelativeLayout>

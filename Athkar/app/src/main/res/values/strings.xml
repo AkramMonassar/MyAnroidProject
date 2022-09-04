@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">أذكاري</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Button1">developer location</string>
+    <string name="title_activity_multi_frag">أذكاري</string>
+
+
+
+</resources>

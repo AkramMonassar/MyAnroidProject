@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akram.athkar"
+
+    >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/athkar2"
+        android:label="أذكاري"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MinActivity_2"
+            android:label="athkar2" >
+        </activity>
+        <activity android:name=".setting" >
+        </activity>
+        <activity android:name=".MainActivity_3_1" >
+        </activity>
+        <activity android:name=".MainActivity_4_1" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".MinActivity_2_2" />
+        <activity android:name=".MainActiv_3_2" />
+        <activity android:name=".MainActivity_4_2" />
+        <activity
+            android:name="com.example.akram.multiplefrag.MultiFragActivity"
+           >
+
+        </activity>
+        <activity android:name="com.example.akram.sapaha.SapahaActivity"></activity>
+    </application>
+
+</manifest>
+

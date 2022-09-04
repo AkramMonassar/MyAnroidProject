@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/back_ground">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="اضغط تحت لتسمع الأذكار"
+        android:id="@+id/textView_listne"
+        android:textSize="30dp"
+        android:width="300dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/back2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="رجوع"
+        android:id="@+id/back2"
+        android:textSize="30dp"
+        android:background="@drawable/animationbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="تشغيل"
+        android:id="@+id/run2"
+        android:textSize="30dp"
+        android:background="@drawable/animationbutton"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/textView_listne"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ايقاف مؤقت"
+        android:id="@+id/pause2"
+        android:textSize="30dp"
+        android:background="@drawable/animationbutton"
+        android:layout_below="@+id/run2"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

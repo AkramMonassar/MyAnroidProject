@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:background="@drawable/back_ground">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="أذكار مسموعة"
+        android:id="@+id/b1_listen_2"
+        android:textSize="40dp"
+        android:layout_below="@+id/text2_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/animationbutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="أذكار مقرؤة"
+        android:id="@+id/btnMultipleFragment"
+        android:layout_marginTop="41dp"
+        android:textSize="40dp"
+        android:layout_below="@+id/b1_listen_2"
+        android:layout_alignStart="@+id/b1_listen_2"
+        android:layout_alignEnd="@+id/b1_listen_2"
+        android:background="@drawable/animationbutton"
+        android:onClick="multiple"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3_listen_2"
+        android:textSize="40dp"
+        android:shadowColor="#9b7fff"
+        android:layout_marginTop="56dp"
+
+
+        android:text="رجوع"
+        android:layout_below="@+id/btnMultipleFragment"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/animationbutton" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="أذكار المساء"
+        android:id="@+id/text2_2"
+        android:textSize="40dp"
+        android:width="400dp"
+        android:gravity="center|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

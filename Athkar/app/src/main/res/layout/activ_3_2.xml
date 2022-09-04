@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back_ground">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="تشغيل"
+        android:id="@+id/run2"
+        android:background="@drawable/animationbutton"
+        android:width="350dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ايقاف مؤقت"
+        android:id="@+id/pause2"
+        android:background="@drawable/animationbutton"
+        android:width="350dp"
+        android:layout_below="@+id/run2"
+        android:layout_alignEnd="@+id/stop2"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="رجوع"
+        android:id="@+id/stop2"
+        android:background="@drawable/animationbutton"
+        android:width="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اضغط تشغيل لتسمع الأذكار"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"/>
+</RelativeLayout>
